@@ -148,6 +148,13 @@ footer {
 #banner{
     padding-top: 5%;
 }
+@media screen and (max-width: 600px) {
+    .foto{
+        margin-right: 5%;
+    }
+   
+    
+}
 
 .navbar{
     background-color: #0e0e0e !important;
@@ -184,3 +191,45 @@ footer {
     margin-left: 15%;
     margin-right: 15%;
 }
+.carousel-item {
+    transition: transform 2s ease, opacity 2s ease; /* Ajusta 2s al tiempo que desees */
+  }
+  #carouselTecnologias{
+    max-width: 500px; /* Ajusta este valor al ancho deseado */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+  }
+  /* Estilos para pantallas medianas (de 600px a 1200px) */
+@media (min-width: 601px) and (max-width: 1200px) {
+.row{
+margin-left: 5%;
+}
+}
+@media (min-width: 101px) and (max-width: 580px) {
+    .row{
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    }
+
+    .nav-item .nav-link {
+        color: #ece7e7; /* Color del texto normal */
+        transition: color 0.3s ease; /* Transición suave del color */
+    }
+    
+    .nav-item .nav-link:hover {
+        color: #babec2; /* Color del texto al hacer hover */
+        background-color: #3d3d42da; /* Color de fondo al hacer hover (opcional) */
+        border-radius: 10px;
+    }
+    .custom-link {
+        color: inherit; /* Hereda el color del botón */
+        text-decoration: none; /* Elimina el subrayado */
+    }
+    
+    .custom-link:hover,
+    .custom-link:focus {
+        color: inherit; /* Mantiene el color heredado en estado hover y focus */
+        text-decoration: none; /* Mantiene la eliminación del subrayado en estado hover y focus */
+    }
+    
+    
